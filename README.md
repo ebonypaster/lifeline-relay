@@ -63,7 +63,13 @@ This is the version we presented. These are the bugs we found, planned for the n
 
 ## The team
 
-Ebony Paster, Nobody, Xanti, Mandy, Davion, Garv and Alison.
+- [Alison Chai](https://www.linkedin.com/in/alisonlchai/)
+- [Ebony Paster](https://www.linkedin.com/in/ebonymp/)
+- [Xantiago Mukai](https://www.linkedin.com/in/xantiago-mukai-6a991b3bb/)
+- Mandy Wang
+- Nobody Flowers
+- Davion
+- [Garv Patel](https://www.linkedin.com/in/garvpatel101/)
 
 ## A note on data
 
