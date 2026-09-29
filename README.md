@@ -3,7 +3,8 @@
 A delivery tool that helps small neighborhood pharmacies get medication to patients, with AI coordinating the handoff. A team of seven built it in under three hours at an AI hackathon.
 
 - **Try the prototype:** https://ebonypaster.github.io/lifeline-relay/
-- **Read the write-up:** https://ebonypaster.com/project-lifeline-relay.html
+- **Read the write-up:** https://ebonypaster.com/lifeline-relay
+- **See the pitch deck:** [PDF](assets/lifeline-relay-pitch-deck.pdf)
 
 ![The pharmacy dispatch view of the Lifeline Relay prototype](assets/lifeline-relay-demo.png)
 
@@ -49,16 +50,24 @@ The whole team tested the prototype first. One teammate fixed bugs using AI whil
 - **Accessibility:** Phone and text options support people who are less comfortable with apps and people with hearing or vision needs.
 - **Known gap:** People in rural areas with no nearby delegates can't use it yet.
 
-## Next slice
+## What we found, and what we fixed
 
-This is the version we presented. These are the bugs we found, planned for the next slice.
+This is the version we presented. Dogfooding turned up these issues.
+
+**Found and fixed**
+
+- A split view that shows the driver and live operations side by side.
+- Combined four screens into two: one for the pharmacy and one for the driver.
+- A second backup, so every delivery has two delegates.
+- The community phone simulations moved into their own full-screen view.
+
+**Found, fixing next**
 
 - Remove the driver's access to the PIN code.
-- Add a backup plan for when a delegate passes on the pickup, so the driver knows the drop-off isn't ready.
-- Simplify the first backup's screen to Yes and No buttons.
-- Add a confirmation message when the customer taps "I am ready."
-- Stop a backup's phone from sending "Yes, heading down" over and over.
-- Move the customer's view into its own window.
+- Add a backup plan when the last delegate passes.
+- Simplify the first backup's phone to Yes and No buttons.
+- Confirm the pickup back to Arthur after "I am ready."
+- Stop "Yes, heading down" from sending again and again.
 - Connect the **Pitch Script** button, which doesn't open anything yet.
 
 ## The team
